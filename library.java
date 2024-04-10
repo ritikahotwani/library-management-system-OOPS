@@ -14,8 +14,6 @@ class Book{
 
 
 public class library {
-    // String listOfBooks[]=new String[10];
-    // static ArrayList<String> listOfBooks = new ArrayList<String>(); 
     static HashMap<String, Integer> listOfBooks = new HashMap<String, Integer>();
 
     public static void addBook(String bookname){
@@ -70,7 +68,6 @@ public class library {
         // displayAllBooks();
         // borrowBook("ritika");
         // returnBook("ritika");
-
         Scanner sc = new Scanner(System.in);
         while(true){
         System.out.println("Choose your option");
